@@ -1,0 +1,5 @@
+{%- for srv in cred.log_server %}
+{{ srv }}
+{%- endfor %}
+!
+username: {{ cred.username }} password: {{ cred.password }}
